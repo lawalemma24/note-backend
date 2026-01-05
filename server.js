@@ -11,7 +11,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors ({
-    origin: 'http://localhost:5173',
+    origin: 'https://tboard-fe.vercel.app/dashboard',
 }))
 const PORT = process.env.PORT || 3000;
 
